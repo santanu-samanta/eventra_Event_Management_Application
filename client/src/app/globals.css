@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+body {
+  background-color: #fdffef;
+}
+
+.scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.scroller:hover::-webkit-scrollbar {
+  display: none; /* Ensure scrollbar remains hidden on hover */
+}
+
+.scroller {
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.scroller1 {
+  white-space: nowrap;
+  display: inline-block;
+  animation-name: scroll;
+  animation-duration: 40s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.scroller h4 {
+  display: inline-block;
+  font-weight: 900;
+  margin-left: 10px;
+  -webkit-text-stroke: 1px white;
+  transition: all linear 0.5s;
+  color: "#232802";
+}
+
+.scroller h4:hover {
+  color: #95c11e;
+}
+
+@keyframes scroll {
+  from {
+    transform: translatex(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ffffff !important;
+}
+
+.swiper-button-next {
+  width: 40px !important;
+  height: 40px !important;
+  background-color: #a7bf00;
+  border-radius: 50%;
+}
+
+.swiper-button-next::after {
+  font-size: 22px !important;
+  font-weight: 900 !important;
+}
+
+.swiper-button-prev {
+  width: 40px !important;
+  height: 40px !important;
+  background-color: #a7bf00;
+  border-radius: 50%;
+}
+
+.swiper-button-prev::after {
+  font-size: 22px !important;
+  font-weight: 900 !important;
+}
