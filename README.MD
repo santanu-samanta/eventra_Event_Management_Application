@@ -3,8 +3,8 @@
 **Eventra** is a full-stack event management platform developed as part of an **SDLC group project**. It provides a scalable and modular structure for handling various types of users: **Admin**, **Organizer**, and **User**, each with their own dashboard and functionality.
 
 ## Author
-Webskitters SDLC Group Project
-Backend Developer: Santanu Samanta
+Webskitters SDLC Group Project,
+Backend Developer: Santanu Samanta,
 Frontend Contributors: Saikat Loadh,Shilpi Ghosh
 ## 🚀 Tech Stack
 
