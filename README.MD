@@ -4,7 +4,7 @@
 
 ## Author
 Webskitters SDLC Group Project
-Backend Developer: Santanu Samanta,Geetika Chowdhary
+Backend Developer: Santanu Samanta
 Frontend Contributors: Saikat Loadh,Shilpi Ghosh
 ## 🚀 Tech Stack
 
